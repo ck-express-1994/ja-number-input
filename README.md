@@ -1,5 +1,5 @@
 # ja_number_input
-Angularjs 日本語の数字フォーマットに変化されるdirective
+Angularjs 日本語の数字フォーマットに変化されるfilter
 
 デモ
 
