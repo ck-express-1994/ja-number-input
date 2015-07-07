@@ -4,8 +4,13 @@ angular.module('myApp', []).controller('namesCtrl', function($scope) {
 .filter('ja_number_input', function () {
   /**
    * 
-   * '10000'から'1万円'に
+   * '10000'から'1万'に
+   *
+   * @param str input 入力する数字 
+   * @param str prefix 接頭文字 
+   * @param str suffix 接尾文字
    * 
+   * @return str 
    */
   return function(input, prefix, suffix) {
 
@@ -87,9 +92,10 @@ angular.module('myApp', []).controller('namesCtrl', function($scope) {
     //console.log(input);
     if( !input || isNaN(input)) {
         return '';
-    }
-    else {
+    } else {
+      
       var output = _num2ja(input, {'with_arabic':1});
+      
       if(prefix !== undefined){
         output = prefix + output;
       }
