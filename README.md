@@ -1,7 +1,7 @@
 # ja_number_input
 Angularjs 日本語の数字フォーマットに変化されるfilter
 
-デモ
+デモ : 
 http://codepen.io/ck-express-1994/pen/vORWpq
 
 例）
