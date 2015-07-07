@@ -2,8 +2,7 @@
 Angularjs 日本語の数字フォーマットに変化されるfilter
 
 デモ
-
-http://plnkr.co/UjR3bTzWFn1f8NtPiLP8
+http://codepen.io/ck-express-1994/pen/vORWpq
 
 例）
 
